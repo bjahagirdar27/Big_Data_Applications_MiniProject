@@ -1,0 +1,21 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://bjahagir-processed-data/output.csv"
+            ]
+        },
+        {
+            "URIPrefixes": [
+                "s3://bjahagir-processed-data/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "true"
+    }
+}
+
